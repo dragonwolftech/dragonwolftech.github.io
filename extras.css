@@ -1,0 +1,28 @@
+.hero-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.portrait {
+  width: 88px;
+  height: 88px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  object-fit: cover;
+  filter: grayscale(1);
+}
+
+.about-grid > div > p.about-detail {
+  margin: 0 0 35px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+@media (max-width: 800px) {
+  .portrait {
+    width: 68px;
+    height: 68px;
+  }
+}
